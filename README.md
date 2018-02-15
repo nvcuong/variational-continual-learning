@@ -3,7 +3,7 @@ This repository contains an implementation of the Variational Continual Learning
 
 ## References:
 ```
-@inproceedings{BuiNguTur17,
+@inproceedings{nguyen2018variational,
   title =  {Variational Continual Learning},
   author =   {Nguyen, Cuong V. and Li, Yingzhen and Bui, Thang D. and Turner, Richard E.},
   booktitle = {International Conference on Learning Representations},
