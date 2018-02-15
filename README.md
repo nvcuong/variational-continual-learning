@@ -2,7 +2,10 @@
 An implementation of the Variational Continual Learning (VCL) algorithms proposed by Nguyen, Li, Bui, and Turner (ICLR 2018).
 
 ## Contributors
-Cuong V. Nguyen, Yingzhen Li, Thang D. Bui, and Richard E. Turner
+* [Cuong V. Nguyen](https://sites.google.com/site/nvcuong92/)
+* [Yingzhen Li](http://yingzhenli.net/home/en/)
+* [Thang D. Bui](http://mlg.eng.cam.ac.uk/thang/)
+* [Richard E. Turner](http://cbl.eng.cam.ac.uk/Public/Turner/Turner)
 
 ## References:
 ```
