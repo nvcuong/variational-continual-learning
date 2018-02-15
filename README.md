@@ -1,5 +1,5 @@
 # Variational Continual Learning
-This repository contains an implementation of the Variational Continual Learning (VCL) algorithms proposed by Nguyen, Li, Bui, and Turner (ICLR 2018).
+An implementation of the Variational Continual Learning (VCL) algorithms proposed by Nguyen, Li, Bui, and Turner (ICLR 2018).
 
 ## References:
 ```
