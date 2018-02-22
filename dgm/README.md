@@ -15,15 +15,15 @@ datasets then you need to write your own data loading codes accordingly.
 
 method: be sure the methods are one of the following:
 
-noreg: none of the continual learning method is in use, just naive online learning
++ noreg: none of the continual learning method is in use, just naive online learning
 
-ewc: the EWC method with our implimentation adapted to VAEs
++ ewc: the EWC method with our implimentation adapted to VAEs
 
-laplace: Laplace propagation (LP) method adapted to VAEs
++ laplace: Laplace propagation (LP) method adapted to VAEs
 
-SI: the Synaptic Intelligence method adapted to VAEs
++ SI: the Synaptic Intelligence method adapted to VAEs
 
-onlinevi: the VCL method, which essentially runs online variational inference
++ onlinevi: the VCL method, which essentially runs online variational inference
 
 lbd is the lambda or c parameters for ewc/laplace/si, for other methods lbd is ineffectived
 
@@ -36,7 +36,7 @@ To evaluate test-LL, run
     
 To evaluate the classifier uncertainty metric, you need to first train a classifier:
 
-    cd classifer/
+    cd classifier/
     python train_classifier.py
     
 with data_name in file train_classifier.py modified accordingly. After training, run
