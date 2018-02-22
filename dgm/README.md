@@ -1,6 +1,9 @@
 # Continual Learning for deep generative models
 
-We provide an implementation for continual learning methods applied to training VAEs.
+We provide an implementation for continual learning methods applied to training VAEs. 
+
+The code is tested on tensorflow 1.0 and Keras 1.2.0. Using lower or higher version might
+cause bugs.
 
 ## Train a model
 To train a model, you need to modify the code to provide the data path in the TODO part. 
