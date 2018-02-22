@@ -13,7 +13,7 @@ to train a model. Here the arguments are:
 data_name: the name of your data, e.g. mnist or notmnist. If you want to test it on other
 datasets then you need to write your own data loading codes accordingly.
 
-method: be sure the methods are one of the following:
+method: be sure that method is one of the following:
 
 + noreg: none of the continual learning method is in use, just naive online learning
 
