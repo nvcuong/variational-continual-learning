@@ -7,6 +7,8 @@ An implementation of the Variational Continual Learning (VCL) algorithms propose
 * [Thang D. Bui](http://mlg.eng.cam.ac.uk/thang/)
 * [Richard E. Turner](http://cbl.eng.cam.ac.uk/Public/Turner/Turner)
 
+For deep generative model tests, see README in [dgm/](dgm/). 
+
 ## References:
 ```
 @inproceedings{nguyen2018variational,
