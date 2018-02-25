@@ -13,9 +13,9 @@ An implementation of the Variational Continual Learning (VCL) algorithms propose
 ## References:
 ```
 @inproceedings{nguyen2018variational,
-  title =  {Variational Continual Learning},
-  author =   {Nguyen, Cuong V. and Li, Yingzhen and Bui, Thang D. and Turner, Richard E.},
+  title = {Variational Continual Learning},
+  author = {Nguyen, Cuong V. and Li, Yingzhen and Bui, Thang D. and Turner, Richard E.},
   booktitle = {International Conference on Learning Representations},
-  year =   {2018}
+  year = {2018}
 }
 ```
