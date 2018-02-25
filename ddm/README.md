@@ -18,4 +18,4 @@ The results will be saved to [results/](results/). They should be similar to the
 
 <p align="center"> Split MNIST </p>
 
-<p align="center"> ![split](results/split.jpg) </p>
+<p align="center"> <img src="results/split.jpg"/> </p>
