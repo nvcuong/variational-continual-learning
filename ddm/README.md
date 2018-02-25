@@ -17,6 +17,6 @@ The results will be saved to [results/](results/). They should be similar to the
 
 <p align="center"> Split MNIST </p>
 <p align="center"> 
-	Split MNIST 
+	Split MNIST <br/>
 	<img src="results/split.jpg"/> 
 </p>
