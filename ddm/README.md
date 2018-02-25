@@ -1,6 +1,6 @@
 # Continual Learning for Deep Discriminative Models
 
-This code is tested on Tensorflow 1.4.
+Requirement: Tensorflow 1.4.0.
 
 **To run the Permuted MNIST experiment:**
 
