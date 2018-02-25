@@ -44,8 +44,11 @@ def get_scores(model, x_testsets, y_testsets, x_coresets, y_coresets, hidden_siz
         cur_acc = len(np.where((pred_y - y) == 0)[0]) * 1.0 / y.shape[0]
         acc.append(cur_acc)
 
-        if len(x_coresets) > 0:
+        if len(x_coresets) > 0 and not single_head:
             final_model.close_session()
+
+    if len(x_coresets) > 0 and single_head:
+        final_model.close_session()
 
     return acc
 
