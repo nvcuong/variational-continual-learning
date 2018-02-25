@@ -7,11 +7,11 @@ This code is tested on Tensorflow 1.4.
 	python run_permuted.py
 
 The result will be saved to [results/](results/). It should be similar to the following figure:
-![permuted](result/permuted.jpg)
+![permuted](results/permuted.jpg)
 
 ## Run the Split MNIST experiment
 
 	python run_split.py
 
 The result will be saved to [results/](results/). It should be similar to the following figure:
-![split](result/split.jpg)
+![split](results/split.jpg)
