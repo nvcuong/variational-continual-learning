@@ -12,10 +12,11 @@ This code is tested on Tensorflow 1.4.
 
 The results will be saved to [results/](results/). They should be similar to the following figures:
 
-<p align="center"> Permuted MNIST </p>
-<p align="center"> <img src="results/permuted.jpg"/> </p>
+<p align="center"> 
+	Permuted MNIST <br/>
+	<img src="results/permuted.jpg"/> 
+</p>
 
-<p align="center"> Split MNIST </p>
 <p align="center"> 
 	Split MNIST <br/>
 	<img src="results/split.jpg"/> 
