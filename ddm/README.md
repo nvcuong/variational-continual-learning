@@ -2,16 +2,18 @@
 
 This code is tested on Tensorflow 1.4.
 
-To run the Permuted MNIST experiment:
+**To run the Permuted MNIST experiment:**
 
 	python run_permuted.py
 
-The result will be saved to [results/](results/). It should be similar to the following figure:
-![permuted](results/permuted.jpg)
-
-To run the Split MNIST experiment:
+**To run the Split MNIST experiment:**
 
 	python run_split.py
 
-The result will be saved to [results/](results/). It should be similar to the following figure:
+The results will be saved to [results/](results/). They should be similar to the following figures:
+
+Permuted MNIST:
+![permuted](results/permuted.jpg)
+
+Split MNIST:
 ![split](results/split.jpg)
