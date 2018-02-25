@@ -12,8 +12,8 @@ This code is tested on Tensorflow 1.4.
 
 The results will be saved to [results/](results/). They should be similar to the following figures:
 
-Permuted MNIST:
+<p align="center"> Permuted MNIST </p>
 ![permuted](results/permuted.jpg)
 
-Split MNIST:
+<p align="center"> Split MNIST </p>
 ![split](results/split.jpg)
