@@ -14,8 +14,8 @@ The results will be saved to [results/](results/). They should be similar to the
 
 <p align="center"> Permuted MNIST </p>
 
-![permuted](results/permuted.jpg)
+<p align="center"> ![permuted](results/permuted.jpg) </p>
 
 <p align="center"> Split MNIST </p>
 
-![split](results/split.jpg)
+<p align="center"> ![split](results/split.jpg) </p>
