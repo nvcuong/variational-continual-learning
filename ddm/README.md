@@ -10,7 +10,7 @@ Requirement: Tensorflow 1.4.0.
 
 	python run_split.py
 
-The results will be saved to [results/](results/). They should be similar to the following figures:
+The printed results are matrices where each row i contains the test set accuracies on all previously observed tasks after seeing task i. The average accuracy will also be plotted and saved to [results/](results/). They should be similar to the following figures:
 
 <p align="center"> 
 	Permuted MNIST <br/>
