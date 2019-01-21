@@ -13,7 +13,7 @@ def get_q_theta_params():
     
 def get_headnet_params(task):
     t_vars = tf.trainable_variables()
-    var_list = [var for var in t_vars if 'gen_head%d' % task in var.name]
+    var_list = [var for var in t_vars if 'gen_%d_head' % task in var.name]
     param_dict = {}
     for var in var_list:
         param_dict[var.name] = var	# make sure here is not a copy!
@@ -43,7 +43,7 @@ def update_q_sigma(sess):
             sess.run(tf.assign(q_params[name], np.ones(shape)*-6))
     print 'reset the log sigma of q to -5'
     
-def KL_param(shared_prior_params, task):
+def KL_param(shared_prior_params, task, regularise_headnet=False):
     # first get q params
     shared_q_params = get_q_theta_params()
     N_layer = len(shared_q_params.keys()) / 4	# one layer has for params
@@ -60,13 +60,14 @@ def KL_param(shared_prior_params, task):
             kl_total += tf.reduce_sum(KL(mu_q, log_sig_q, mu_p, log_sig_p))
 
     # for the head network
-    head_q_params = get_headnet_params(task)
-    N_layer = len(head_q_params.keys()) / 4	# one layer has for params
-    for l in xrange(N_layer):
-        for suffix in ['W', 'b']:
-            mu_q = shared_q_params['gen_head%d_l%d_mu_' % (task, l) + suffix + ':0']
-            log_sig_q = shared_q_params['gen_head%d_l%d_log_sig_' % (task, l) + suffix + ':0']
-            kl_total += tf.reduce_sum(KL(mu_q, log_sig_q, 0.0, 0.0))
+    if regularise_headnet:
+        head_q_params = get_headnet_params(task)
+        N_layer = len(head_q_params.keys()) / 4	# one layer has for params
+        for l in xrange(N_layer):
+            for suffix in ['W', 'b']:
+                mu_q = shared_q_params['gen_head%d_l%d_mu_' % (task, l) + suffix + ':0']
+                log_sig_q = shared_q_params['gen_head%d_l%d_log_sig_' % (task, l) + suffix + ':0']
+                kl_total += tf.reduce_sum(KL(mu_q, log_sig_q, 0.0, 0.0))
             
     return kl_total
 
