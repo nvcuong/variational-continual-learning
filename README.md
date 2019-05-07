@@ -4,7 +4,7 @@ An implementation of the Variational Continual Learning (VCL) algorithms propose
 * For deep discriminative model tests, see README in [ddm/](ddm/).
 * For deep generative model tests, see README in [dgm/](dgm/).
 
-Also has an implementation of the "Improving and Understanding Variational Continual Learning" paper by Swaroop, Nguyen, Bui, and Turner (2019).
+Also has an implementation of the "[Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099)" paper by Swaroop, Nguyen, Bui, and Turner (2019).
 
 * See README in [improved_ddm/](improved_ddm/)
 
@@ -23,5 +23,14 @@ Also has an implementation of the "Improving and Understanding Variational Conti
   author = {Nguyen, Cuong V. and Li, Yingzhen and Bui, Thang D. and Turner, Richard E.},
   booktitle = {International Conference on Learning Representations},
   year = {2018}
+}
+
+@article{swaroop2019improving,
+	title = {Improving and Understanding Variational Continual Learning},
+	url = {http://arxiv.org/abs/1905.02099},
+	urldate = {2019-05-07},
+	journal = {arXiv:1905.02099 [cs, stat]},
+	author = {Swaroop, Siddharth and Nguyen, Cuong V. and Bui, Thang D. and Turner, Richard E.},
+	year = {2019},
 }
 ```
