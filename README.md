@@ -26,11 +26,11 @@ Also has an implementation of the "[Improving and Understanding Variational Cont
 }
 
 @article{swaroop2019improving,
-	title = {Improving and Understanding Variational Continual Learning},
-	url = {http://arxiv.org/abs/1905.02099},
-	urldate = {2019-05-07},
-	journal = {arXiv:1905.02099 [cs, stat]},
-	author = {Swaroop, Siddharth and Nguyen, Cuong V. and Bui, Thang D. and Turner, Richard E.},
-	year = {2019},
+  title = {Improving and Understanding Variational Continual Learning},
+  url = {http://arxiv.org/abs/1905.02099},
+  urldate = {2019-05-07},
+  journal = {arXiv:1905.02099 [cs, stat]},
+  author = {Swaroop, Siddharth and Nguyen, Cuong V. and Bui, Thang D. and Turner, Richard E.},
+  year = {2019},
 }
 ```
