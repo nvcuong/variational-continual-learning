@@ -1,6 +1,6 @@
 # Improving and Understanding Variational Continual Learning
 
-Link to paper (on arXiv): [Improving and Understanding Variational Continual Learning]()
+Link to paper: [Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099)
 
 Requirement: Tensorflow 1.12.0.
 
